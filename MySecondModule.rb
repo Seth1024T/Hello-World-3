@@ -1,13 +1,13 @@
 module MySecondModule
    
-# This module contains a group of useful fucntions, procedures, and objects. It is considered by many to be a library
+# This module contains a group of useful functions, procedures, and objects. It is considered by many to be a library
 # of re-usable computer code. For that reason a GNU GPL licence is used, since this library is bound to get larger.
 #
 # This module uses a programming language called Ruby. 
 # keywords: module, function, procedure, object # Copyright (C) 2017 Seth1024T (https://github.com/Seth1024T) 
 # This module was created from bits of code from: https://github.com/Seth1024T/Hello-World 
 # Changes made include the use of the keyword modules, and changing the constant Decoration1 to the function decoration_funct1
-# Because this code is now in a seperate file (that may be expanded to include more code), it may be easily re-used by other
+# Because this code is now in a separate file (that may be expanded to include more code), it may be easily re-used by other
 # programs.
 #
 # Thus these parts of the code are no longer fixed to a main program, but might be used by many different programs.
@@ -28,8 +28,8 @@ If not, see http://www.gnu.org/licenses/.
 
 =begin
 Modules are generally not stand alone programs, they are often included in programs
-to speed up the rate of code generation. They are often refered to as libraries of 
-re-usable, often genralized, and useful code.
+to speed up the rate of code generation. They are often referred to as libraries of 
+re-usable, often generalized, and useful code.
 
 in general modules should not include variables, arrays, or instances of objects.
 You can put variables into functions (as is done here) to get around that problem.
