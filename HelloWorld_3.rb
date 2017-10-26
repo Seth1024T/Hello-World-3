@@ -20,6 +20,8 @@ puts "licence or go to directly to http://www.gnu.org/licenses/ or"
 puts "http://www.gnu.org/licenses/gpl.html for more specific details." 
 puts "***************************************"
 
+load "MySecondModule.rb"
+
 module MyFirstModule
    def display(anything="- - - - - - - - - - - -") 
    # if the programmer just types display, 
@@ -29,13 +31,10 @@ module MyFirstModule
 end
 
 include MyFirstModule
+include MySecondModule #the actual name of the module, not the file name.
 
-def blankline 
-   puts " " 
-end 
-Decoration1="*********************************" 
 #people call this a string 
-display(Decoration1) 
+display(decoration_function1) 
 puts "Hello World." 
 blankline 
 display display("Thank you for using this program.") 
