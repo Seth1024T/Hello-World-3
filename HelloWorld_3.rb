@@ -48,4 +48,4 @@ puts "Hello World."
 blankline 
 display display("Thank you for using this program.") 
 display("Program closing... bye.") 
-display(Decoration1)
+display(decoration_funct1)
