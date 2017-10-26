@@ -1,7 +1,7 @@
 module MySecondModule
    
 # This module contains a group of useful fucntions, procedures, and objects. It is considered by many to be a libary
-# of re-usable computer code.
+# of re-usable computer code. For that reason a GNU GPL licence is used, since this library is bound to get larger.
 # This module uses a programming language called Ruby. 
 # keywords: module, function, procedure, object # Copyright (C) 2017 Seth1024T (https://github.com/Seth1024T) 
 # This module was created from bits of code from: https://github.com/Seth1024T/Hello-World 
@@ -16,14 +16,18 @@ GNU General Public License as published by the Free Software Foundation, either 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
 implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
 for more details. You should have received a copy of the GNU General Public License along with this program. 
-If not, see http://www.gnu.org/licenses/. 
+If not, see http://www.gnu.org/licenses/.
 =end 
 # If you want to make the program interactive, then the GPL licence 
 # suggests you include code to let users view the relevant parts of 
 # the GPL licence: http://www.gnu.org/licenses/gpl.html; 
-# see section 17. puts "***************************************" puts "Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T)" puts "This Program uses a GNU GPL V3 licence or alter. Since a " puts "Ruby program must have the source code to run in most cases," puts "please check the source code for details about the GNU GPL V3" puts "licence or go to directly to http://www.gnu.org/licenses/ or" puts "http://www.gnu.org/licenses/gpl.html for more specific details." puts "***************************************"   
-   
+# see section 17. puts "***************************************"
+
 =begin
+Modules are generally not stand alone programs, they are often included in programs
+to speed up the rate of code generation. They are often refered to as libraries of 
+re-usable, often genralized, and useful code.
+
 in general modules should not include variables, arrays, or instances of objects.
 You can put variables into functions (as is done here) to get around that problem.
 
@@ -41,6 +45,16 @@ not only of low level programming, but quirks about ruby, such as what exactly i
 an integer representation in ruby--and that might surprise you. However that 
 discussion is outside the scope of this section.
 =end
+   
+   def LicenceNotice
+      puts "Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T)" 
+      puts "This Program uses a GNU GPL V3 licence or alter. Since a " 
+      puts "Ruby program must have the source code to run in most cases,"
+      puts "please check the source code for details about the GNU GPL V3" 
+      puts "licence or go to directly to http://www.gnu.org/licenses/ or"
+      puts "http://www.gnu.org/licenses/gpl.html for more specific details." 
+      puts "***************************************" 
+   end
    def blankline 
       puts " " 
    end
