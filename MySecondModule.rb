@@ -1,13 +1,16 @@
 module MySecondModule
    
-# This module contains a group of useful fucntions, procedures, and objects. It is considered by many to be a libary
+# This module contains a group of useful fucntions, procedures, and objects. It is considered by many to be a library
 # of re-usable computer code. For that reason a GNU GPL licence is used, since this library is bound to get larger.
+#
 # This module uses a programming language called Ruby. 
 # keywords: module, function, procedure, object # Copyright (C) 2017 Seth1024T (https://github.com/Seth1024T) 
 # This module was created from bits of code from: https://github.com/Seth1024T/Hello-World 
 # Changes made include the use of the keyword modules, and changing the constant Decoration1 to the function decoration_funct1
 # Because this code is now in a seperate file (that may be expanded to include more code), it may be easily re-used by other
 # programs.
+#
+# Thus these parts of the code are no longer fixed to a main program, but might be used by many different programs.
 =begin 
 This program is free software: you can redistribute it and/or modify it under the terms of the 
 GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or 
