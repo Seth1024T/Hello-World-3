@@ -1,6 +1,8 @@
 # This program says hello to the world 
 # This program uses a programming language called Ruby. 
-# keywords: function, method # Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T) 
+# keywords: function, method # Copyright (C) 2017 Seth1024T (https://github.com/Seth1024T)
+# This program is a modified version of https://github.com/Seth1024T/Hello-World
+# Changes made include the use of modules, and changing the constant Decoration1 to the function decoration_funct1
 =begin 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License 
 as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This 
@@ -20,8 +22,12 @@ puts "licence or go to directly to http://www.gnu.org/licenses/ or"
 puts "http://www.gnu.org/licenses/gpl.html for more specific details." 
 puts "***************************************"
 
+# A module can exist in a file that is seperate from the main program
+# A module contained in a file can be reused. This often allows you to
+# speed up the time it takes to make a program.
 load "MySecondModule.rb"
 
+# A module can exist inside the main program
 module MyFirstModule
    def display(anything="- - - - - - - - - - - -") 
    # if the programmer just types display, 
@@ -33,8 +39,11 @@ end
 include MyFirstModule
 include MySecondModule #the actual name of the module, not the file name.
 
-#people call this a string 
+# You can speed up your programming by creating large libraries of modules that contain useful, and often generalized 
+# functions, procedures, and objects. The examples here show you how to do this.
+
 display(decoration_funct1) 
+# people call this bunch of words a string 
 puts "Hello World." 
 blankline 
 display display("Thank you for using this program.") 
