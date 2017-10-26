@@ -34,7 +34,7 @@ include MyFirstModule
 include MySecondModule #the actual name of the module, not the file name.
 
 #people call this a string 
-display(decoration_function1) 
+display(decoration_funct1) 
 puts "Hello World." 
 blankline 
 display display("Thank you for using this program.") 
