@@ -34,3 +34,5 @@ to figure out how to use it for a particular project.
 
 Okay, so check out the program for more details on how to use modules, and to put them into seperate 
 files.
+
+The licence will produced shortly, once the program is tested
