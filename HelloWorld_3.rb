@@ -15,7 +15,7 @@ received a copy of the GNU General Public License along with this program. If no
 # the GPL licence: http://www.gnu.org/licenses/gpl.html; 
 # see section 17. puts "***************************************"
 
-# The licence notice is now contained in the function LicenceNotice
+# When the programs runs, a licence notice can be displayed using the function LicenceNotice
 
 # A module can exist in a file that is seperate from the main program
 # A module contained in a file can be reused. This often allows you to
