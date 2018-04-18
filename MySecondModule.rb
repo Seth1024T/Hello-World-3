@@ -55,7 +55,9 @@ discussion is outside the scope of this section.
       puts "Ruby program must have the source code to run in most cases,"
       puts "please check the source code for details about the GNU GPL V3" 
       puts "licence or go to directly to http://www.gnu.org/licenses/ or"
-      puts "http://www.gnu.org/licenses/gpl.html for more specific details." 
+      puts "http://www.gnu.org/licenses/gpl.html for more specific details."
+      puts "Details about the licence that this program uses, can also be"
+      puts "found at the github URL (web address) mentioned above."
       puts "***************************************" 
    end
    def blankline 
