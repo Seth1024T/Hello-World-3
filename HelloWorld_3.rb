@@ -43,7 +43,7 @@ display(decoration_funct1)
 # people call this bunch of words a string 
 puts "Hello World." 
 blankline 
-display("-----------------------") 
+display("---------------------------------") 
 display("Thank you for using this program.") 
 display("Program closing... bye.") 
 display(decoration_funct1)
