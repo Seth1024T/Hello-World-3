@@ -13,14 +13,9 @@ received a copy of the GNU General Public License along with this program. If no
 #If you want to make the program interactive, then the GPL licence 
 # suggests you include code to let users view the relevant parts of 
 # the GPL licence: http://www.gnu.org/licenses/gpl.html; 
-# see section 17. puts "***************************************" 
-puts "Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T)" 
-puts "This Program uses a GNU GPL V3 licence or alter. Since a " 
-puts "Ruby program must have the source code to run in most cases," 
-puts "please check the source code for details about the GNU GPL V3" 
-puts "licence or go to directly to http://www.gnu.org/licenses/ or" 
-puts "http://www.gnu.org/licenses/gpl.html for more specific details." 
-puts "***************************************"
+# see section 17. puts "***************************************"
+
+# The licence notice is now contained in the function LicenceNotice
 
 # A module can exist in a file that is seperate from the main program
 # A module contained in a file can be reused. This often allows you to
@@ -39,6 +34,8 @@ end
 include MyFirstModule
 include MySecondModule #the actual name of the module, not the file name.
 
+LicenceNotice("2018 Seth1024T (https://github.com/Seth1024T)")
+
 # You can speed up your programming by creating large libraries of modules that contain useful, and often generalized 
 # functions, procedures, and objects. The examples here show you how to do this.
 
@@ -46,6 +43,7 @@ display(decoration_funct1)
 # people call this bunch of words a string 
 puts "Hello World." 
 blankline 
-display display("Thank you for using this program.") 
+display("-----------------------") 
+display("Thank you for using this program.") 
 display("Program closing... bye.") 
 display(decoration_funct1)
