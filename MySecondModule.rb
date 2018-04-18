@@ -49,9 +49,9 @@ an integer representation in ruby--and that might surprise you. However that
 discussion is outside the scope of this section.
 =end
    
-   def LicenceNotice
-      puts "Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T)" 
-      puts "This Program uses a GNU GPL V3 licence or alter. Since a " 
+   def LicenceNotice(yr_name_link="2018 Seth1024T (https://github.com/Seth1024T)")
+      puts "Copyright (C) #{yr_name_link})" 
+      puts "This Program uses a GNU GPL V3 licence or later. Since a " 
       puts "Ruby program must have the source code to run in most cases,"
       puts "please check the source code for details about the GNU GPL V3" 
       puts "licence or go to directly to http://www.gnu.org/licenses/ or"
